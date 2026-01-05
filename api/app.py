@@ -2,9 +2,10 @@
 from fastapi import FastAPI
 from orchestration.graph import app as graph_app
 
-api = FastAPI()
+app = FastAPI()
 
-@api.post("/ask")
+@app.post("/ask")
 def ask(query: str):
     result = graph_app.invoke({"query": query})
     return result
+

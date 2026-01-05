@@ -1,8 +1,9 @@
 
 from langchain_community.vectorstores import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
 
 class RAGAgent:
     def __init__(self, persist_dir="vector_db"):
