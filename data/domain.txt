@@ -1,0 +1,5 @@
+
+Retrieval-Augmented Generation (RAG) combines document retrieval
+with large language models to improve factual accuracy.
+Multi-agent systems divide responsibilities among agents.
+ReAct reasoning follows Reason → Act → Observe loops.
